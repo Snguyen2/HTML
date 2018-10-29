@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Burton Education</title>
+    <h2>Burton Education</h2>
+    <style>
+        div.form-group {
+            width:300px;
+            padding:10px;
+        }
+        div.form-group-1 {
+            width:500px;
+            padding:5px;
+            float:right;
+        }
+        div.form-group-2 {
+            width:500px;
+            float:right;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+    <div class="form-group-1">
+        <label for="lekker eten">Lekker Eten:</label> <br>
+        <input type="checkbox" name="eten" value="spercieboben">Spercieboben <br>
+        <input type="checkbox" name="eten" value="aardappelen">Aardappelen <br>
+        <input type="checkbox" name="eten" value="hamburger">Hamburger
+    </div>
+        <div class="form-group">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" name="voornaam" required>
+        </div>
+        <div class="form-group">
+            <label for="tussenvoegsel">Tussenvoegsel</label>
+            <input type="text" name="voornaam">
+        </div>
+        <div class="form-group">
+            <label for="achternaam">Achternaam</label>
+            <input type="text" name="achternaam" required>
+        </div>
+        <div class="form-group">
+            <label for="geslacht">Geslacht</label>
+            <input type="radio" name="geslacht" value="man">Man
+            <input type="radio" name="geslacht" value="vrouw">Vrouw
+        </div>
+        <div class="form-group">
+            <label for="kleur ogen">Kleur ogen</label>
+            <select type="select" name="kleur ogen" value="Kleur">
+                <option value="Blauw">Blauw</option>
+                <option value="Groen">Groen</option>
+                <option value="Bruin">Bruin</option>
+            </select>
+        </div>
+        <div class="form-group">
+                Geboortedatum: <input type="date" name="bday">
+        </div>
+        <div class="form-group">
+            <label for="omschrijving">Omschrijving</label> <br>
+            <textarea rows="6" cols="40"></textarea>
+        </div>
+        <div class="form-group-2">
+            <button type="submit">Annuleer</button>
+            <input type="submit" name="OK" value="OK">
+        </div>
+</form>
+</body>
+</html>
